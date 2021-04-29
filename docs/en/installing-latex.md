@@ -21,7 +21,7 @@ If you want to also have additional applications that allow you to work with LaT
 Linux distributions commonly have several LaTeX packages available to install directly from your package manager. Generally, you'd want to install the XeTeX package. Possibly, you need to install the base package as well, in case the XeTeX package does not install it as a dependency. You can do this either by using a graphical software application, if your distribution provides one, or install it using the command line:
 
 ```shell
-$ sudo apt install texlive-base texlive-xetex # for Debian-based distributions
+$ sudo apt install texlive-base texlive-xetex texlive-plain-generic ttf-mscorefonts-installer # for Debian-based distributions
 ```
 
 Please consult the manual for your distribution for more information on how to install these packages. Make sure that the `xetex` binary is being installed.
